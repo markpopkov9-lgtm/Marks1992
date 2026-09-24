@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "name": "JARVIS",
+  "mode": "local-first",
+  "studioOS": {
+    "configFile": "local/config.json",
+    "access": "manual"
+  },
+  "execution": {
+    "automaticExternalCalls": false,
+    "paidServicesRequired": false
+  },
+  "integrations": {
+    "chatgpt": "manual",
+    "codex": "manual",
+    "github": "not-configured",
+    "figma": "manual",
+    "claudeReview": "optional-manual",
+    "tilda": "optional-manual",
+    "remotion": "optional-manual",
+    "threeD": "optional-manual",
+    "marketingGrowth": "manual"
+  }
+}

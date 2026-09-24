@@ -1,0 +1,3 @@
+# Project defaults; credentials remain outside the repository.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"

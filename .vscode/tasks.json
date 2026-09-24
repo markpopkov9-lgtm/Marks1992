@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Studio OS: doctor",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "scripts/jarvis.mjs",
+        "doctor"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Studio OS: init",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "scripts/jarvis.mjs",
+        "init"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Studio OS: check",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "scripts/jarvis.mjs",
+        "check"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Studio OS: test",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "--test",
+        "tests/distribution.test.mjs"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Studio OS: Distribution Build",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "scripts/release.mjs"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

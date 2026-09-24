@@ -1,0 +1,16 @@
+{
+  "name": "studio-os-master",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "doctor": "node scripts/jarvis.mjs doctor",
+    "check": "node scripts/jarvis.mjs check",
+    "test": "node --test tests/distribution.test.mjs",
+    "build": "node scripts/jarvis.mjs build",
+    "release": "node scripts/release.mjs"
+  }
+}
