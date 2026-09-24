@@ -21,6 +21,27 @@
     "selectiveExtraction": true,
     "avoidRepeatedReads": true
   },
+  "externalSkills": {
+    "impeccable": {
+      "mode": "qa-only",
+      "installScope": "project",
+      "hooks": false,
+      "status": "prepared"
+    },
+    "taste": {
+      "mode": "adapted-art-direction",
+      "status": "enabled"
+    },
+    "emilMotion": {
+      "mode": "adapted-motion-direction",
+      "status": "enabled",
+      "upstreamCopy": false
+    },
+    "horizonX": {
+      "mode": "isolated-experiment",
+      "status": "not-installed"
+    }
+  },
   "integrations": {
     "chatgpt": "manual",
     "codex": "manual",

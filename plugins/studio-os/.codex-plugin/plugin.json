@@ -1,7 +1,7 @@
 {
   "name": "studio-os",
-  "version": "0.2.0",
-  "description": "Память проектов, оптимизация контекста, управление задачами, Figma handoff и переносимые сборки Studio OS.",
+  "version": "0.3.0",
+  "description": "Память проектов, оптимизация контекста, art direction, motion, QA и переносимые сборки Studio OS.",
   "author": {
     "name": "МС92"
   },
