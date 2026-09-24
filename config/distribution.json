@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "files": [
     ".codex/config.toml",
+    ".agents/plugins/marketplace.json",
     ".editorconfig",
     ".env.example",
     ".gitattributes",
@@ -21,6 +22,10 @@
     "media/README.md",
     "package.json",
     "projects/README.md",
+    "plugins/studio-os/.codex-plugin/plugin.json",
+    "plugins/studio-os/skills/studio-os-figma-handoff/SKILL.md",
+    "plugins/studio-os/skills/studio-os-release/SKILL.md",
+    "plugins/studio-os/skills/studio-os-task/SKILL.md",
     "prompts/master.md",
     "prompts/review.md",
     "scripts/jarvis.mjs",

@@ -20,3 +20,16 @@ node scripts/release.mjs
 ```
 Release проверяет проект и создаёт новую папку рядом с MASTER. Существующие сборки сохраняются.
 Копируйте templates/task.md в local/tasks. Правила Codex: AGENTS.md и .codex/config.toml. Интеграция Figma: design/figma-handoff.md. Настройка ПК: docs/setup.md.
+
+## Плагин Studio OS
+
+Исходники плагина находятся в `plugins/studio-os`, каталог GitHub marketplace — в `.agents/plugins/marketplace.json`. Плагин содержит skills для задач, Distribution Build и Figma handoff. Он версионируется вместе с MASTER; локальные подключения аккаунтов в плагин не входят.
+
+После публикации репозитория подключите marketplace и установите плагин:
+
+```powershell
+codex plugin marketplace add markpopkov9-lgtm/Marks1992 --ref main
+codex plugin add studio-os@personal
+```
+
+Новые skills становятся доступны в следующей задаче Codex.
