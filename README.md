@@ -17,6 +17,8 @@ JARVIS управляет задачами, контекстом и QA этой 
 - Design layer и границы внешних Skills: `docs/design-layer.md`.
 - Статус интеграций: `docs/integrations.md`.
 - Приёмка AI Work System v1.0: `docs/work-system-v1.md`.
+- Knowledge intake: `knowledge/workflow.md`.
+- Аудит внешнего JARVIS: `docs/jarvis-github-audit.md`.
 
 ## Запуск
 Откройте studio-os.code-workspace в VS Code. Добавьте MASTER как локальный проект в Codex через интерфейс приложения. Требуется Node.js 22+ и Git; npm install не нужен.

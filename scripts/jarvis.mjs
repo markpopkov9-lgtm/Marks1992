@@ -62,7 +62,7 @@ function main(command) {
   if (command === 'init') {
     const local = join(root, 'local');
     if (existsSync(local) && lstatSync(local).isSymbolicLink()) throw Error('local cannot be a link');
-    for (const folder of ['local', 'local/tasks', 'local/knowledge', 'local/reports', 'local/projects', 'local/design']) {
+    for (const folder of ['local', 'local/tasks', 'local/knowledge', 'local/knowledge/inbox', 'local/knowledge/sources', 'local/knowledge/wiki', 'local/reports', 'local/projects', 'local/design']) {
       const path = join(root, folder);
       if (existsSync(path) && lstatSync(path).isSymbolicLink()) throw Error('Local folder cannot be a link');
       mkdirSync(path, { recursive: true });
