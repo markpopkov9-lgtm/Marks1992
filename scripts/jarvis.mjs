@@ -69,6 +69,8 @@ function main(command) {
     }
     const path = join(local, 'config.json');
     if (!existsSync(path)) writeFileSync(path, JSON.stringify({ studioOsPath: null }, null, 2) + '\n', { flag: 'wx' });
+    const memory = join(local, 'project-state.json');
+    if (!existsSync(memory)) writeFileSync(memory, readFileSync(join(root, 'templates/project-state.json')), { flag: 'wx' });
     console.log('Local workspace ready. Set studioOsPath in local/config.json.');
   } else if (command === 'doctor') {
     console.log('Node: ' + process.version);

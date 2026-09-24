@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "JARVIS",
   "mode": "local-first",
   "studioOS": {
@@ -9,6 +9,17 @@
   "execution": {
     "automaticExternalCalls": false,
     "paidServicesRequired": false
+  },
+  "projectMemory": {
+    "file": "local/project-state.json",
+    "template": "templates/project-state.json",
+    "updateAfterMeaningfulChange": true
+  },
+  "contextOptimization": {
+    "defaultCharacterBudget": 12000,
+    "loadProjectStateFirst": true,
+    "selectiveExtraction": true,
+    "avoidRepeatedReads": true
   },
   "integrations": {
     "chatgpt": "manual",
