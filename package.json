@@ -10,6 +10,7 @@
     "memory:init": "node scripts/memory.mjs init",
     "memory:show": "node scripts/memory.mjs show",
     "context": "node scripts/memory.mjs context",
+    "system:check": "node scripts/system-check.mjs",
     "doctor": "node scripts/jarvis.mjs doctor",
     "check": "node scripts/jarvis.mjs check",
     "test": "node --test tests/distribution.test.mjs",

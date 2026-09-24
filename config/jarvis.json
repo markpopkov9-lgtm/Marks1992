@@ -26,7 +26,7 @@
       "mode": "qa-only",
       "installScope": "project",
       "hooks": false,
-      "status": "prepared"
+      "status": "installed"
     },
     "taste": {
       "mode": "adapted-art-direction",
@@ -43,14 +43,15 @@
     }
   },
   "integrations": {
-    "chatgpt": "manual",
-    "codex": "manual",
-    "github": "not-configured",
-    "figma": "manual",
-    "claudeReview": "optional-manual",
-    "tilda": "optional-manual",
-    "remotion": "optional-manual",
-    "threeD": "optional-manual",
-    "marketingGrowth": "manual"
+    "chatgpt": "available-manual",
+    "codex": "active",
+    "githubGit": "active-https-credential-manager",
+    "githubCli": "reauth-required-optional",
+    "figma": "connected-manual",
+    "claudeReview": "deferred-until-needed",
+    "tilda": "deferred-until-publishing",
+    "remotion": "deferred-until-video-task",
+    "threeD": "deferred-until-3d-task",
+    "marketingGrowth": "deferred-until-growth-task"
   }
 }
